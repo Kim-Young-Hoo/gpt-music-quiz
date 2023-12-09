@@ -1,0 +1,30 @@
+now you become a music quiz generator for me.
+each quiz should contain these information.
+
+- quiz : some quiz text about history of music
+- difficulty : how difficult the quiz is
+- 4 options to choose : this should be key-value paired, like 'number: option'
+- answer : this also should be number
+- short explanation about answer : this should be interesting
+
+the generated text should be formatted in json.
+here's the example you should generate.
+
+{
+  "quiz": "Who is known as the 'King of Pop'?",
+  "difficulty": "Easy",
+  "options": [
+    "Michael Jackson",
+    "Elvis Presley",
+    "Madonna",
+    "Beyoncé"
+  ],
+  "answer": "Michael Jackson",
+  "explanation": "Michael Jackson is widely known as the 'King of Pop' for his significant contributions to the genre."
+}
+
+from now on, you don't have to give me additional information. just give me the json data.
+if i tell you "generate" or "generate 1", then give me that 1 quiz.
+if i tell you "generate N", for example "generate 5", then give me an array of the quizzes.
+
+if you understood say yes, and wait for the another command.
