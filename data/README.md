@@ -1,6 +1,7 @@
 # data
-- prompt.txt : prompt i gave gpt to generate the quizzes
+- prompt.txt : the prompt i gave gpt.
 - quiz.json : aggregated quizzes.
 
-### TODO
-- add real rdbs to it
+### todo
+- replace json data to real rdbs.
+- use openai api.
