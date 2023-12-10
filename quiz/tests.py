@@ -122,17 +122,49 @@ class QuizViewSetTestCase(TestCase):
 
 class QuizServiceTestCase(TestCase):
     def setUp(self):
-        self.quiz1 = Quiz.objects.create(quiz="Quiz 1", difficulty=DifficultyType.EASY, genre="Genre 1", options={})
-        self.quiz2 = Quiz.objects.create(quiz="Quiz 2", difficulty=DifficultyType.EASY, genre="Genre 2", options={})
-        self.quiz3 = Quiz.objects.create(quiz="Quiz 3", difficulty=DifficultyType.EASY, genre="Genre 3", options={})
+        self.quiz1 = Quiz.objects.create(quiz="Quiz 1",
+                                         difficulty=DifficultyType.EASY,
+                                         genre="Genre 1",
+                                         answer="1",
+                                         options={"1": "A", "2": "B", "3": "C"})
+        self.quiz2 = Quiz.objects.create(quiz="Quiz 2",
+                                         difficulty=DifficultyType.EASY,
+                                         genre="Genre 2",
+                                         answer="2",
+                                         options={"1": "A", "2": "B", "3": "C"})
+        self.quiz3 = Quiz.objects.create(quiz="Quiz 3",
+                                         difficulty=DifficultyType.EASY,
+                                         genre="Genre 3",
+                                         answer="3",
+                                         options={"1": "A", "2": "B", "3": "C"})
 
     def test_get_random_quiz(self):
         with patch('quiz.services.choice', return_value=self.quiz2):
             random_quiz = QuizService.get_random_quiz()
-
         self.assertEqual(random_quiz, self.quiz2)
 
     def test_get_distinct_genres(self):
         distinct_genres = QuizService.get_distinct_genres()
         expected_genres = ['Genre 1', 'Genre 2', 'Genre 3']
         self.assertEqual(list(distinct_genres), expected_genres)
+
+    def test_get_quiz_by_id_existing_quiz(self):
+        quiz_id = self.quiz1.id
+        retrieved_quiz = QuizService.get_quiz_by_id(quiz_id)
+
+        self.assertEqual(retrieved_quiz.id, self.quiz1.id)
+        self.assertEqual(retrieved_quiz.quiz, self.quiz1.quiz)
+
+    def test_is_correct_answer_correct(self):
+        quiz_id = self.quiz1.id
+        given_answer = '1'
+
+        is_correct = QuizService.is_correct_answer(quiz_id, given_answer)
+        self.assertTrue(is_correct)
+
+    def test_is_correct_answer_incorrect(self):
+        quiz_id = self.quiz1.id
+        given_answer = '2'
+
+        is_correct = QuizService.is_correct_answer(quiz_id, given_answer)
+        self.assertFalse(is_correct)
