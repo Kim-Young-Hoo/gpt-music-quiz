@@ -1,11 +1,12 @@
 from django.db.models import CharField
 
-"""
-https://vixxcode.tistory.com/249 참고
-"""
+from project.exceptions import NotFoundEnumMember
 
 
 class EnumField(CharField):
+    """
+    https://vixxcode.tistory.com/249 참고
+    """
 
     def __init__(self, enum, *args, **kwargs):
         self.enum = enum
@@ -33,4 +34,4 @@ class EnumField(CharField):
                 return value.value
             if member.value == value:
                 return value
-        raise AttributeError('Not Found Enum Member')
+        raise NotFoundEnumMember
