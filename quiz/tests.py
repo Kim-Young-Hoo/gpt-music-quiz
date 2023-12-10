@@ -8,7 +8,7 @@ from .models import Quiz, DifficultyType
 import uuid
 from rest_framework.test import APIRequestFactory
 
-from .serializers import QuizSerializer
+from .serializers import QuizModelSerializer
 from .services import QuizService
 from .views import QuizViewSet
 
@@ -47,7 +47,7 @@ class QuizSerializerTestCase(TestCase):
         }
 
     def test_quiz_serializer_valid_data(self):
-        serializer = QuizSerializer(data=self.quiz_data)
+        serializer = QuizModelSerializer(data=self.quiz_data)
         self.assertTrue(serializer.is_valid())
         quiz_instance = serializer.save()
         self.assertIsInstance(quiz_instance.id, uuid.UUID)
@@ -62,7 +62,7 @@ class QuizSerializerTestCase(TestCase):
             "explanation": "WRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONG",
             "options": "WRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONG"
         }
-        serializer = QuizSerializer(data=invalid_data)
+        serializer = QuizModelSerializer(data=invalid_data)
         self.assertFalse(serializer.is_valid())
 
 

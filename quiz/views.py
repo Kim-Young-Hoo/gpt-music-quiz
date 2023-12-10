@@ -3,13 +3,13 @@ from rest_framework.decorators import action
 from rest_framework.response import Response
 
 from .models import Quiz
-from .serializers import QuizSerializer, SubmitAnswerDTO
+from .serializers import QuizModelSerializer, SubmitAnswerSerializer
 from .services import QuizService
 
 
 class QuizViewSet(viewsets.ModelViewSet):
     queryset = Quiz.objects.all()
-    serializer_class = QuizSerializer
+    serializer_class = QuizModelSerializer
 
     def get_queryset(self):
         queryset = Quiz.objects.all()
@@ -31,13 +31,13 @@ class QuizViewSet(viewsets.ModelViewSet):
     def get_random_quiz(self, request):
         """
         id가 uuid이기 때문에 만드는 random 함수
-        TODO : 중복 문제가 출제 될 가능성이 있기 때문에 나중에 user relation 맺어서 중복 없애야 함
+        TODO : 중복 문제가 출제 될 가능성이 있기 때문에 나중에 user relation 맺어서 이미 맞춘 거는 제외하는 로직, 전부 다 맞췄다면 그냥 중복 출제
         """
         random_quiz = QuizService.get_random_quiz()
-        serializer = QuizSerializer(random_quiz)
+        serializer = QuizModelSerializer(random_quiz)
         return Response(serializer.data)
 
-    @action(detail=False, methods=['POST'], url_path='submission', serializer_class=SubmitAnswerDTO)
+    @action(detail=False, methods=['POST'], url_path='submission', serializer_class=SubmitAnswerSerializer)
     def submit_answer(self, request):
         """
         정답 제출 api
