@@ -50,6 +50,6 @@ class QuizViewSet(viewsets.ModelViewSet):
             return Response({'error': 'quiz_id and given_answer are required in the request data'},
                             status=status.HTTP_400_BAD_REQUEST)
 
-        is_correct = QuizService.is_correct_answer(quiz_id, given_answer)
-        response_data = {'quiz_id': quiz_id, 'given_answer': given_answer, 'is_correct': is_correct}
+        is_correct, explanation = QuizService.is_correct_answer(quiz_id, given_answer)
+        response_data = {'quiz_id': quiz_id, 'given_answer': given_answer, 'is_correct': is_correct, 'explanation': explanation}
         return Response(response_data, status=status.HTTP_200_OK)

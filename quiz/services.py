@@ -24,4 +24,4 @@ class QuizService:
     @staticmethod
     def is_correct_answer(quiz_id, given_answer):
         quiz = QuizService.get_quiz_by_id(quiz_id)
-        return quiz.answer == given_answer
+        return quiz.answer == given_answer, quiz.explanation

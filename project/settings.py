@@ -36,6 +36,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'allauth.socialaccount.providers.google',
     'quiz'
 ]
 
@@ -47,7 +51,18 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'allauth.account.middleware.AccountMiddleware',
 ]
+
+SOCIALACCOUNT_PROVIDERS = {
+    'google': {
+        'SCOPE': ['profile', 'email'],
+        'AUTH_PARAMS': {
+            'access_type': 'online',
+        }
+    }
+}
+
 
 ROOT_URLCONF = 'project.urls'
 
@@ -66,6 +81,25 @@ TEMPLATES = [
         },
     },
 ]
+
+AUTHENTICATION_BACKENDS = [
+    'allauth.account.auth_backends.AuthenticationBackend',
+]
+
+SOCIALACCOUNT_QUERY_EMAIL = True
+SOCIALACCOUNT_AUTO_SIGNUP = True
+SOCIALACCOUNT_STORE_TOKENS = True
+
+# Set your Google API credentials
+SOCIALACCOUNT_PROVIDERS['google']['APP'] = {
+    'client_id': '999953746297-1velcrvdgmvv47pd92ahotnrbr8p7n65.apps.googleusercontent.com',
+    'secret': 'YOUR_GOOGLE_CLIENT_SECRET',
+    'key': '',
+}
+
+
+
+SITE_ID = 1
 
 WSGI_APPLICATION = 'project.wsgi.application'
 
