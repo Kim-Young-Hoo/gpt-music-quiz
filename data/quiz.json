@@ -1,151 +1,60 @@
 [
   {
-    "quiz": "Which rock band released the album 'The Dark Side of the Moon'?",
-    "difficulty": "Moderate",
+    "quiz": "Which Beatles album is often considered one of the greatest of all time?",
+    "difficulty": "Medium",
+    "genre": "Rock",
     "options": {
-      "1": "Led Zeppelin",
-      "2": "The Rolling Stones",
-      "3": "Pink Floyd",
-      "4": "The Who"
-    },
-    "answer": "3",
-    "explanation": "'The Dark Side of the Moon' is an iconic album by Pink Floyd, known for its progressive rock sound and conceptual themes. It remains one of the best-selling and influential albums in the history of music."
-  },
-  {
-    "quiz": "Which artist is often referred to as the 'Queen of Soul'?",
-    "difficulty": "Easy",
-    "options": {
-      "1": "Diana Ross",
-      "2": "Whitney Houston",
-      "3": "Aretha Franklin",
-      "4": "Tina Turner"
-    },
-    "answer": "3",
-    "explanation": "Aretha Franklin, known as the 'Queen of Soul,' was a legendary singer and songwriter. Her powerful voice and impactful contributions to soul and R&B music have left an enduring legacy."
-  },
-  {
-    "quiz": "In what year did The Beatles officially disband?",
-    "difficulty": "Moderate",
-    "options": {
-      "1": "1968",
-      "2": "1970",
-      "3": "1972",
-      "4": "1965"
+      "1": "Abbey Road",
+      "2": "Sgt. Pepper's Lonely Hearts Club Band",
+      "3": "Revolver",
+      "4": "The White Album"
     },
     "answer": "2",
-    "explanation": "The Beatles officially disbanded in 1970, marking the end of an era in popular music. Each member pursued solo careers, leaving behind an unparalleled catalog of timeless songs."
+    "explanation": "Sgt. Pepper's Lonely Hearts Club Band is frequently regarded as one of the greatest albums in the history of music, with its innovative production and eclectic sound."
   },
   {
-    "quiz": "Which country is the origin of the musical genre reggae?",
+    "quiz": "Who is the 'Queen of Soul'?",
     "difficulty": "Easy",
+    "genre": "Soul",
     "options": {
-      "1": "Jamaica",
-      "2": "Cuba",
-      "3": "Trinidad and Tobago",
-      "4": "Haiti"
+      "1": "Aretha Franklin",
+      "2": "Diana Ross",
+      "3": "Whitney Houston",
+      "4": "Etta James"
     },
     "answer": "1",
-    "explanation": "Reggae, with its roots in Jamaican music traditions, became a global phenomenon. This genre, characterized by its offbeat rhythm and socially conscious lyrics, has influenced artists worldwide."
+    "explanation": "Aretha Franklin earned the title 'Queen of Soul' for her powerful and soulful voice, making her an iconic figure in the genre."
   },
   {
-    "quiz": "Which country is the origin of the musical genre reggae?",
-    "difficulty": "Easy",
+    "quiz": "In which decade did the punk rock movement emerge?",
+    "difficulty": "Medium",
+    "genre": "Punk Rock",
     "options": {
-      "1": "Jamaica",
-      "2": "Cuba",
-      "3": "Trinidad and Tobago",
-      "4": "Haiti"
+      "1": "1970s",
+      "2": "1980s",
+      "3": "1960s",
+      "4": "1990s"
     },
     "answer": "1",
-    "explanation": "Reggae, with its roots in Jamaican music traditions, became a global phenomenon. This genre, characterized by its offbeat rhythm and socially conscious lyrics, has influenced artists worldwide."
+    "explanation": "The punk rock movement emerged in the 1970s, characterized by its rebellious attitude, DIY ethos, and raw, energetic sound."
   },
   {
-    "quiz": "Who is the lead guitarist of the legendary band Queen?",
+    "quiz": "Who was the lead guitarist for the rock band Queen?",
     "difficulty": "Easy",
+    "genre": "Rock",
     "options": {
       "1": "Brian May",
-      "2": "Roger Taylor",
-      "3": "Freddie Mercury",
-      "4": "John Deacon"
+      "2": "Jimmy Page",
+      "3": "Eric Clapton",
+      "4": "Jimi Hendrix"
     },
     "answer": "1",
-    "explanation": "Brian May is the accomplished lead guitarist of Queen. His distinctive guitar solos and musical contributions have played a crucial role in shaping the band's signature sound."
+    "explanation": "Brian May served as the lead guitarist for the legendary rock band Queen, contributing to their distinctive sound."
   },
   {
-    "quiz": "Which iconic female artist is known for her album 'Back to Black'?",
-    "difficulty": "Moderate",
-    "options": {
-      "1": "Amy Winehouse",
-      "2": "Adele",
-      "3": "Beyoncé",
-      "4": "Rihanna"
-    },
-    "answer": "1",
-    "explanation": "Amy Winehouse, a talented and soulful artist, is known for her album 'Back to Black.' Her unique voice and retro-inspired sound left a lasting impact on the music industry."
-  },
-  {
-    "quiz": "Which American rapper is known for albums like 'good kid, m.A.A.d city' and 'To Pimp a Butterfly'?",
-    "difficulty": "Moderate",
-    "options": {
-      "1": "Kanye West",
-      "2": "J. Cole",
-      "3": "Kendrick Lamar",
-      "4": "Drake"
-    },
-    "answer": "3",
-    "explanation": "Kendrick Lamar, often hailed as one of the greatest lyricists of his generation, is known for critically acclaimed albums like 'good kid, m.A.A.d city' and 'To Pimp a Butterfly.' His"
-  },
-  {
-    "quiz": "Which British rock band is known for their concept album 'The Wall'?",
-    "difficulty": "Moderate",
-    "options": {
-      "1": "The Rolling Stones",
-      "2": "The Who",
-      "3": "Pink Floyd",
-      "4": "Led Zeppelin"
-    },
-    "answer": "3",
-    "explanation": "'The Wall' is a concept album by Pink Floyd, a British rock band. The album explores themes of isolation and war, showcasing the band's musical and lyrical prowess."
-  },
-  {
-    "quiz": "In what year did Michael Jackson release the album 'Thriller'?",
-    "difficulty": "Easy",
-    "options": {
-      "1": "1980",
-      "2": "1982",
-      "3": "1984",
-      "4": "1986"
-    },
-    "answer": "2",
-    "explanation": "Michael Jackson released the iconic album 'Thriller' in 1982. The album's title track and music videos are celebrated as cultural landmarks in the history of music."
-  },
-  {
-    "quiz": "Which instrument did Jimi Hendrix play?",
-    "difficulty": "Easy",
-    "options": {
-      "1": "Piano",
-      "2": "Guitar",
-      "3": "Drums",
-      "4": "Saxophone"
-    },
-    "answer": "2",
-    "explanation": "Jimi Hendrix, a legendary musician, was known for his extraordinary skill on the guitar. His innovative approach to the instrument influenced generations of musicians."
-  },
-  {
-    "quiz": "What is the name of Taylor Swift's first studio album?",
-    "difficulty": "Easy",
-    "options": {
-      "1": "Fearless",
-      "2": "Speak Now",
-      "3": "Taylor Swift",
-      "4": "Red"
-    },
-    "answer": "3",
-    "explanation": "Taylor Swift's first studio album is self-titled, simply named 'Taylor Swift.' The album marked the beginning of her successful career in country and pop music."
-  },
-  {
-    "quiz": "Which jazz trumpeter was known for his contributions to the development of bebop?",
-    "difficulty": "Moderate",
+    "quiz": "Which jazz trumpeter was known for his innovative style and contributions to the development of bebop?",
+    "difficulty": "Hard",
+    "genre": "Jazz",
     "options": {
       "1": "Miles Davis",
       "2": "Louis Armstrong",
@@ -153,11 +62,272 @@
       "4": "Chet Baker"
     },
     "answer": "3",
-    "explanation": "Dizzy Gillespie, a pioneering jazz trumpeter, played a key role in the development of bebop, a revolutionary subgenre of jazz. His virtuosity and innovations are highly regarded."
+    "explanation": "Dizzy Gillespie was a pioneering jazz trumpeter who played a crucial role in the development of bebop, introducing new harmonies and rhythms to the genre."
   },
   {
-    "quiz": "Who is the lead vocalist of the band U2?",
+    "quiz": "Which country is the origin of flamenco music?",
+    "difficulty": "Medium",
+    "genre": "Flamenco",
+    "options": {
+      "1": "Brazil",
+      "2": "Spain",
+      "3": "Cuba",
+      "4": "Argentina"
+    },
+    "answer": "2",
+    "explanation": "Flamenco music originated in Spain, particularly in the Andalusian region, and is known for its passionate singing, guitar playing, and dance."
+  },
+  {
+    "quiz": "Who is often referred to as the 'Godfather of Soul'?",
     "difficulty": "Easy",
+    "genre": "Soul",
+    "options": {
+      "1": "James Brown",
+      "2": "Otis Redding",
+      "3": "Sam Cooke",
+      "4": "Marvin Gaye"
+    },
+    "answer": "1",
+    "explanation": "James Brown is commonly known as the 'Godfather of Soul' for his influential contributions to the genre and his dynamic stage performances."
+  },
+  {
+    "quiz": "Which electronic music duo is known for hits like 'Get Lucky' and 'One More Time'?",
+    "difficulty": "Easy",
+    "genre": "Electronic",
+    "options": {
+      "1": "Daft Punk",
+      "2": "The Chemical Brothers",
+      "3": "Disclosure",
+      "4": "Justice"
+    },
+    "answer": "1",
+    "explanation": "Daft Punk, the electronic music duo, gained widespread acclaim for their infectious hits like 'Get Lucky' and 'One More Time.'"
+  },
+  {
+    "quiz": "What rock band is famous for their concept album 'The Dark Side of the Moon'?",
+    "difficulty": "Medium",
+    "genre": "Progressive Rock",
+    "options": {
+      "1": "Led Zeppelin",
+      "2": "Pink Floyd",
+      "3": "The Who",
+      "4": "Genesis"
+    },
+    "answer": "2",
+    "explanation": "Pink Floyd is renowned for their groundbreaking concept album 'The Dark Side of the Moon,' which is considered a masterpiece in the world of progressive rock."
+  },
+  {
+    "quiz": "Who is known for popularizing the use of the wah-wah pedal in rock music with songs like 'Voodoo Child'?",
+    "difficulty": "Hard",
+    "genre": "Rock",
+    "options": {
+      "1": "Eric Clapton",
+      "2": "Jimi Hendrix",
+      "3": "Jeff Beck",
+      "4": "Stevie Ray Vaughan"
+    },
+    "answer": "2",
+    "explanation": "Jimi Hendrix is credited with popularizing the use of the wah-wah pedal in rock music, particularly showcased in his iconic song 'Voodoo Child.'"
+  },
+  {
+    "quiz": "Who is known as the 'Queen of Pop'?",
+    "difficulty": "Easy",
+    "genre": "Pop",
+    "options": {
+      "1": "Madonna",
+      "2": "Beyoncé",
+      "3": "Lady Gaga",
+      "4": "Rihanna"
+    },
+    "answer": "1",
+    "explanation": "Madonna is often referred to as the 'Queen of Pop' for her immense influence on the pop music scene and her groundbreaking contributions to the genre."
+  },
+  {
+    "quiz": "Which famous rapper is also known by the nickname 'Slim Shady'?",
+    "difficulty": "Easy",
+    "genre": "Hip-Hop",
+    "options": {
+      "1": "Kanye West",
+      "2": "Drake",
+      "3": "Eminem",
+      "4": "Jay-Z"
+    },
+    "answer": "3",
+    "explanation": "Eminem is commonly known by the nickname 'Slim Shady,' and he is renowned for his lyrical prowess and impact on the hip-hop genre."
+  },
+  {
+    "quiz": "What rock band released the album 'Back in Black,' one of the best-selling albums of all time?",
+    "difficulty": "Medium",
+    "genre": "Rock",
+    "options": {
+      "1": "AC/DC",
+      "2": "Led Zeppelin",
+      "3": "The Rolling Stones",
+      "4": "Queen"
+    },
+    "answer": "1",
+    "explanation": "AC/DC, the iconic rock band, released the album 'Back in Black,' which is considered one of the best-selling albums of all time, known for its hard-hitting sound."
+  },
+  {
+    "quiz": "Who is known for his contributions to the development of reggae music and songs like 'No Woman, No Cry'?",
+    "difficulty": "Medium",
+    "genre": "Reggae",
+    "options": {
+      "1": "Bob Marley",
+      "2": "Jimmy Cliff",
+      "3": "Peter Tosh",
+      "4": "Damian Marley"
+    },
+    "answer": "1",
+    "explanation": "Bob Marley, a reggae legend, played a key role in the development of the genre and is best known for timeless classics like 'No Woman, No Cry.'"
+  },
+  {
+    "quiz": "Which country music icon is often referred to as the 'Man in Black'?",
+    "difficulty": "Easy",
+    "genre": "Country",
+    "options": {
+      "1": "Johnny Cash",
+      "2": "Willie Nelson",
+      "3": "Dolly Parton",
+      "4": "George Strait"
+    },
+    "answer": "1",
+    "explanation": "Johnny Cash, the country music icon, is often referred to as the 'Man in Black' due to his distinctive all-black stage attire and rebellious persona."
+  },
+  {
+    "quiz": "What pop group is known for hits like 'Waterloo,' 'Dancing Queen,' and 'Mamma Mia'?",
+    "difficulty": "Medium",
+    "genre": "Pop",
+    "options": {
+      "1": "ABBA",
+      "2": "The Bee Gees",
+      "3": "The Supremes",
+      "4": "The Jackson 5"
+    },
+    "answer": "1",
+    "explanation": "ABBA, the Swedish pop group, gained international fame with hits like 'Waterloo,' 'Dancing Queen,' and 'Mamma Mia,' contributing to the disco era."
+  },
+  {
+    "quiz": "Who is known for his influential role in the development of rock and roll and hits like 'Johnny B. Goode'?",
+    "difficulty": "Hard",
+    "genre": "Rock and Roll",
+    "options": {
+      "1": "Chuck Berry",
+      "2": "Little Richard",
+      "3": "Elvis Presley",
+      "4": "Buddy Holly"
+    },
+    "answer": "1",
+    "explanation": "Chuck Berry is celebrated for his pioneering role in the development of rock and roll, with timeless hits like 'Johnny B. Goode' that influenced generations of musicians."
+  },
+  {
+    "quiz": "Which classical composer is known for his Ninth Symphony and 'Ode to Joy'?",
+    "difficulty": "Medium",
+    "genre": "Classical",
+    "options": {
+      "1": "Wolfgang Amadeus Mozart",
+      "2": "Johann Sebastian Bach",
+      "3": "Ludwig van Beethoven",
+      "4": "Franz Schubert"
+    },
+    "answer": "3",
+    "explanation": "Ludwig van Beethoven is renowned for his Ninth Symphony and the uplifting 'Ode to Joy,' making a lasting impact on classical music."
+  },
+  {
+    "quiz": "Who is the lead vocalist of the rock band Queen?",
+    "difficulty": "Easy",
+    "genre": "Rock",
+    "options": {
+      "1": "Freddie Mercury",
+      "2": "Robert Plant",
+      "3": "Axl Rose",
+      "4": "Mick Jagger"
+    },
+    "answer": "1",
+    "explanation": "Freddie Mercury, with his powerful and versatile voice, served as the lead vocalist of the iconic rock band Queen."
+  },
+  {
+    "quiz": "What famous jazz saxophonist is known for his contributions to the development of bebop and his improvisational genius?",
+    "difficulty": "Hard",
+    "genre": "Jazz",
+    "options": {
+      "1": "John Coltrane",
+      "2": "Charlie Parker",
+      "3": "Dexter Gordon",
+      "4": "Sonny Rollins"
+    },
+    "answer": "2",
+    "explanation": "Charlie Parker, a legendary jazz saxophonist, played a pivotal role in the development of bebop and is celebrated for his unmatched improvisational skills."
+  },
+  {
+    "quiz": "Which iconic rock band released the album 'The Wall'?",
+    "difficulty": "Medium",
+    "genre": "Rock",
+    "options": {
+      "1": "The Rolling Stones",
+      "2": "Led Zeppelin",
+      "3": "The Who",
+      "4": "Pink Floyd"
+    },
+    "answer": "4",
+    "explanation": "Pink Floyd, the iconic rock band, released the concept album 'The Wall,' known for its narrative structure and powerful exploration of themes like isolation and war."
+  },
+  {
+    "quiz": "Who is often credited as the 'Father of Bluegrass' music?",
+    "difficulty": "Medium",
+    "genre": "Bluegrass",
+    "options": {
+      "1": "Johnny Cash",
+      "2": "Bill Monroe",
+      "3": "Ricky Skaggs",
+      "4": "Earl Scruggs"
+    },
+    "answer": "2",
+    "explanation": "Bill Monroe is often credited as the 'Father of Bluegrass' music, pioneering the genre with his distinctive mandolin playing and high-energy performances."
+  },
+  {
+    "quiz": "In which decade did the punk rock band Sex Pistols gain prominence?",
+    "difficulty": "Medium",
+    "genre": "Punk Rock",
+    "options": {
+      "1": "1960s",
+      "2": "1970s",
+      "3": "1980s",
+      "4": "1990s"
+    },
+    "answer": "2",
+    "explanation": "The punk rock band Sex Pistols gained prominence in the 1970s, playing a significant role in the punk movement with their rebellious attitude and energetic music."
+  },
+  {
+    "quiz": "Who is known for his virtuoso guitar skills and iconic top hat, often referred to as the 'Slash' hat?",
+    "difficulty": "Easy",
+    "genre": "Rock",
+    "options": {
+      "1": "Jimmy Page",
+      "2": "Jimi Hendrix",
+      "3": "Slash",
+      "4": "Eric Clapton"
+    },
+    "answer": "3",
+    "explanation": "Slash, recognized by his virtuoso guitar skills and iconic top hat, is a renowned guitarist known for his contributions to the rock genre, notably with Guns N' Roses."
+  },
+  {
+    "quiz": "Which genre of music is characterized by its use of synthesizers, drum machines, and electronic sounds?",
+    "difficulty": "Easy",
+    "genre": "Electronic",
+    "options": {
+      "1": "Rock",
+      "2": "Hip-Hop",
+      "3": "Jazz",
+      "4": "Electronic"
+    },
+    "answer": "4",
+    "explanation": "Electronic music is characterized by its use of synthesizers, drum machines, and electronic sounds, creating a wide range of subgenres within the electronic music landscape."
+  },
+  {
+    "quiz": "Who is the lead singer of the Irish rock band U2?",
+    "difficulty": "Easy",
+    "genre": "Rock",
     "options": {
       "1": "Bono",
       "2": "The Edge",
@@ -165,150 +335,188 @@
       "4": "Larry Mullen Jr."
     },
     "answer": "1",
-    "explanation": "Bono, whose real name is Paul Hewson, is the lead vocalist of the Irish rock band U2. His distinctive voice and passionate performances define the band's sound."
+    "explanation": "Bono is the lead singer of the Irish rock band U2, known for his distinctive voice and passionate performances."
   },
   {
-    "quiz": "Which classical composer is known for his 'Moonlight Sonata'?",
-    "difficulty": "Moderate",
+    "quiz": "Which jazz trumpeter is known for his groundbreaking experiments with fusion jazz and his album 'Kind of Blue'?",
+    "difficulty": "Hard",
+    "genre": "Jazz",
     "options": {
-      "1": "Wolfgang Amadeus Mozart",
-      "2": "Ludwig van Beethoven",
-      "3": "Johann Sebastian Bach",
-      "4": "Franz Schubert"
-    },
-    "answer": "2",
-    "explanation": "Ludwig van Beethoven is the classical composer known for his 'Moonlight Sonata.' The composition is admired for its expressive and emotional piano movements."
-  },
-  {
-    "quiz": "In what decade did the grunge movement emerge in the music scene?",
-    "difficulty": "Moderate",
-    "options": {
-      "1": "1970s",
-      "2": "1980s",
-      "3": "1990s",
-      "4": "2000s"
-    },
-    "answer": "3",
-    "explanation": "The grunge movement emerged in the music scene during the 1990s. Bands like Nirvana and Pearl Jam became synonymous with the grunge sound and alternative rock."
-  },
-  {
-    "quiz": "Which iconic female artist is known as the 'Material Girl'?",
-    "difficulty": "Easy",
-    "options": {
-      "1": "Madonna",
-      "2": "Lady Gaga",
-      "3": "Beyoncé",
-      "4": "Rihanna"
+      "1": "Miles Davis",
+      "2": "Louis Armstrong",
+      "3": "Dizzy Gillespie",
+      "4": "Chet Baker"
     },
     "answer": "1",
-    "explanation": "Madonna, often referred to as the 'Material Girl,' is a pop icon known for her groundbreaking music, provocative style, and enduring influence on the entertainment industry."
+    "explanation": "Miles Davis, a jazz legend, is known for his groundbreaking experiments with fusion jazz and his influential album 'Kind of Blue,' considered one of the greatest jazz albums of all time."
   },
   {
-    "quiz": "Which American rock band is known for the hit song 'Stairway to Heaven'?",
-    "difficulty": "Moderate",
-    "options": {
-      "1": "The Rolling Stones",
-      "2": "Led Zeppelin",
-      "3": "The Eagles",
-      "4": "The Who"
-    },
-    "answer": "2",
-    "explanation": "'Stairway to Heaven' is a signature song by Led Zeppelin, an iconic American rock band. The epic composition showcases the band's musical prowess and timeless appeal."
-  },
-  {
-    "quiz": "Who is the 'Godfather of Soul'?",
+    "quiz": "Which pop diva is known for her powerful vocals, hits like 'I Will Always Love You,' and her role in 'The Bodyguard'?",
     "difficulty": "Easy",
+    "genre": "Pop",
     "options": {
-      "1": "Ray Charles",
-      "2": "James Brown",
-      "3": "Otis Redding",
-      "4": "Sam Cooke"
-    },
-    "answer": "2",
-    "explanation": "James Brown, often referred to as the 'Godfather of Soul,' was a trailblazing artist known for his dynamic stage presence and influential contributions to funk and soul music."
-  },
-  {
-    "quiz": "Which country singer is known for albums like 'Fearless' and 'Speak Now'?",
-    "difficulty": "Easy",
-    "options": {
-      "1": "Carrie Underwood",
-      "2": "Miranda Lambert",
-      "3": "Taylor Swift",
-      "4": "Shania Twain"
-    },
-    "answer": "3",
-    "explanation": "Taylor Swift, a versatile artist, gained fame with country albums like 'Fearless' and 'Speak Now.' She later transitioned to pop music, becoming a global pop sensation."
-  },
-  {
-    "quiz": "Who composed the soundtrack for the movie 'The Lion King'?",
-    "difficulty": "Moderate",
-    "options": {
-      "1": "Hans Zimmer",
-      "2": "Alan Menken",
-      "3": "John Williams",
-      "4": "Elton John"
+      "1": "Whitney Houston",
+      "2": "Mariah Carey",
+      "3": "Celine Dion",
+      "4": "Madonna"
     },
     "answer": "1",
-    "explanation": "Hans Zimmer composed the powerful soundtrack for 'The Lion King.' His musical score contributed to the film's emotional impact and cultural significance."
+    "explanation": "Whitney Houston, a pop diva, is known for her powerful vocals, timeless hits like 'I Will Always Love You,' and her iconic role in the movie 'The Bodyguard.'"
   },
   {
-    "quiz": "Which female pop artist is known for hits like 'Bad Romance' and 'Poker Face'?",
-    "difficulty": "Easy",
+    "quiz": "What funk legend is known for hits like 'Superstition' and 'I Just Called to Say I Love You'?",
+    "difficulty": "Medium",
+    "genre": "Funk",
     "options": {
-      "1": "Katy Perry",
-      "2": "Taylor Swift",
-      "3": "Lady Gaga",
-      "4": "Beyoncé"
+      "1": "James Brown",
+      "2": "George Clinton",
+      "3": "Stevie Wonder",
+      "4": "Prince"
     },
     "answer": "3",
-    "explanation": "Lady Gaga, an eccentric and innovative artist, is known for pop hits like 'Bad Romance' and 'Poker Face.' Her unique style and theatrical performances set her apart in the music industry."
+    "explanation": "Stevie Wonder, a funk legend, is known for hits like 'Superstition' and 'I Just Called to Say I Love You,' showcasing his immense talent and contribution to the world of music."
   },
   {
-    "quiz": "Who was the lead singer of the rock band Queen before Adam Lambert?",
-    "difficulty": "Moderate",
+    "quiz": "Which country music icon is known for his outlaw image, hits like 'Whiskey River,' and collaboration with Johnny Cash?",
+    "difficulty": "Medium",
+    "genre": "Country",
     "options": {
-      "1": "Freddie Mercury",
-      "2": "Brian May",
-      "3": "Roger Taylor",
-      "4": "John Deacon"
+      "1": "Hank Williams",
+      "2": "Johnny Cash",
+      "3": "Willie Nelson",
+      "4": "Merle Haggard"
     },
-    "answer": "1",
-    "explanation": "Freddie Mercury was the iconic lead singer of Queen before Adam Lambert. His powerful vocals and charismatic stage presence made him a legendary figure in rock history."
+    "answer": "3",
+    "explanation": "Willie Nelson, a country music icon, is known for his outlaw image, hits like 'Whiskey River,' and his collaboration with Johnny Cash and Waylon Jennings in the supergroup The Highwaymen."
   },
   {
-    "quiz": "Which legendary blues guitarist was known for his hit 'The Thrill Is Gone'?",
-    "difficulty": "Moderate",
+    "quiz": "Who is known as the 'Father of the Blues'?",
+    "difficulty": "Medium",
+    "genre": "Blues",
     "options": {
-      "1": "Eric Clapton",
-      "2": "Buddy Guy",
-      "3": "Muddy Waters",
-      "4": "B.B. King"
+      "1": "Muddy Waters",
+      "2": "B.B. King",
+      "3": "Robert Johnson",
+      "4": "W.C. Handy"
     },
     "answer": "4",
-    "explanation": "B.B. King, the legendary blues guitarist, was known for his hit 'The Thrill Is Gone.' His soulful playing style and expressive vocals influenced generations of musicians."
+    "explanation": "W.C. Handy is often referred to as the 'Father of the Blues' for his significant contributions to the genre as a composer and musician, shaping the early blues sound."
   },
   {
-    "quiz": "What is the name of the first studio album released by The Beatles?",
+    "quiz": "Which female artist is known as the 'Queen of Country'?",
     "difficulty": "Easy",
+    "genre": "Country",
     "options": {
-      "1": "Abbey Road",
-      "2": "Sgt. Pepper's Lonely Hearts Club Band",
-      "3": "Please Please Me",
-      "4": "Revolver"
+      "1": "Patsy Cline",
+      "2": "Shania Twain",
+      "3": "Tammy Wynette",
+      "4": "Dolly Parton"
     },
-    "answer": "3",
-    "explanation": "'Please Please Me' is the name of the first studio album released by The Beatles. The album marked the beginning of their unprecedented success in the music industry."
+    "answer": "4",
+    "explanation": "Dolly Parton is often referred to as the 'Queen of Country' for her influential career, prolific songwriting, and timeless contributions to the country music genre."
   },
   {
-    "quiz": "Which female artist is known for her hit singles 'Umbrella' and 'Diamonds'?",
-    "difficulty": "Easy",
+    "quiz": "In which decade did the Motown sound become prominent, with artists like The Supremes and The Temptations?",
+    "difficulty": "Medium",
+    "genre": "Motown",
     "options": {
-      "1": "Adele",
-      "2": "Rihanna",
-      "3": "Beyoncé",
-      "4": "Katy Perry"
+      "1": "1950s",
+      "2": "1960s",
+      "3": "1970s",
+      "4": "1980s"
     },
     "answer": "2",
-    "explanation": "Rihanna, a global pop sensation, is known for hit singles like 'Umbrella' and 'Diamonds.'"
+    "explanation": "The Motown sound became prominent in the 1960s, characterized by its catchy melodies, smooth vocals, and iconic artists like The Supremes and The Temptations."
+  },
+  {
+    "quiz": "Who is known as the 'High Priestess of Soul'?",
+    "difficulty": "Easy",
+    "genre": "Soul",
+    "options": {
+      "1": "Etta James",
+      "2": "Aretha Franklin",
+      "3": "Nina Simone",
+      "4": "Gladys Knight"
+    },
+    "answer": "3",
+    "explanation": "Nina Simone is often referred to as the 'High Priestess of Soul' for her powerful and unique voice, as well as her diverse contributions to soul, jazz, and blues."
+  },
+  {
+    "quiz": "Which British rock band released the concept album 'Tommy'?",
+    "difficulty": "Medium",
+    "genre": "Rock",
+    "options": {
+      "1": "The Who",
+      "2": "Led Zeppelin",
+      "3": "The Rolling Stones",
+      "4": "The Beatles"
+    },
+    "answer": "1",
+    "explanation": "The Who, the British rock band, released the concept album 'Tommy,' which is considered one of the earliest and most influential rock operas in the history of music."
+  },
+  {
+    "quiz": "Who is the 'Godmother of Punk' known for her role in the band The Patti Smith Group?",
+    "difficulty": "Medium",
+    "genre": "Punk Rock",
+    "options": {
+      "1": "Joan Jett",
+      "2": "Siouxsie Sioux",
+      "3": "Patti Smith",
+      "4": "Debbie Harry"
+    },
+    "answer": "3",
+    "explanation": "Patti Smith is often referred to as the 'Godmother of Punk' for her influential role in the punk rock movement, both as a musician and a poet."
+  },
+  {
+    "quiz": "Which musical genre is characterized by its improvisational nature and typically features a small ensemble with a rhythm section?",
+    "difficulty": "Easy",
+    "genre": "Jazz",
+    "options": {
+      "1": "Classical",
+      "2": "Blues",
+      "3": "Jazz",
+      "4": "Country"
+    },
+    "answer": "3",
+    "explanation": "Jazz is a musical genre characterized by its improvisational nature and typically features a small ensemble with a rhythm section, allowing for creative expression and spontaneity."
+  },
+  {
+    "quiz": "Who is known for his groundbreaking use of the theremin in electronic music and his soundtrack for 'A Clockwork Orange'?",
+    "difficulty": "Hard",
+    "genre": "Electronic",
+    "options": {
+      "1": "Kraftwerk",
+      "2": "Brian Eno",
+      "3": "Jean-Michel Jarre",
+      "4": "Wendy Carlos"
+    },
+    "answer": "4",
+    "explanation": "Wendy Carlos is known for her groundbreaking use of the theremin in electronic music and her iconic soundtrack for 'A Clockwork Orange,' contributing to the early development of electronic soundscapes."
+  },
+  {
+    "quiz": "Which hip-hop artist is known for albums like 'Illmatic' and 'It Was Written'?",
+    "difficulty": "Medium",
+    "genre": "Hip-Hop",
+    "options": {
+      "1": "Jay-Z",
+      "2": "Nas",
+      "3": "Eminem",
+      "4": "Kendrick Lamar"
+    },
+    "answer": "2",
+    "explanation": "Nas is known for his impactful contributions to hip-hop, particularly through albums like 'Illmatic' and 'It Was Written,' which are considered classics in the genre."
+  },
+  {
+    "quiz": "Which American singer-songwriter is known for his protest songs, including 'Blowin' in the Wind' and 'The Times They Are a-Changin'?",
+    "difficulty": "Easy",
+    "genre": "Folk",
+    "options": {
+      "1": "Bob Dylan",
+      "2": "Joni Mitchell",
+      "3": "Simon & Garfunkel",
+      "4": "Neil Young"
+    },
+    "answer": "1",
+    "explanation": "Bob Dylan, the American singer-songwriter, is known for his influential protest songs, such as 'Blowin' in the Wind' and 'The Times They Are a-Changin,' which became anthems for the 1960s civil rights and anti-war movements."
   }
 ]
