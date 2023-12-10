@@ -1,9 +1,9 @@
-from rest_framework import viewsets
+from rest_framework import viewsets, status
 from rest_framework.decorators import action
 from rest_framework.response import Response
 
 from .models import Quiz
-from .serializers import QuizSerializer
+from .serializers import QuizSerializer, SubmitAnswerDTO
 from .services import QuizService
 
 
@@ -36,3 +36,20 @@ class QuizViewSet(viewsets.ModelViewSet):
         random_quiz = QuizService.get_random_quiz()
         serializer = QuizSerializer(random_quiz)
         return Response(serializer.data)
+
+    @action(detail=False, methods=['POST'], url_path='submission', serializer_class=SubmitAnswerDTO)
+    def submit_answer(self, request):
+        """
+        정답 제출 api
+        TODO : 정답이 맞을 경우, user-quiz relation에 correct=True하고 user 테이블 correct에 1++ 아닐 경우 그 반대
+        """
+        quiz_id = request.data.get('quiz_id')
+        given_answer = request.data.get('answer')
+
+        if not quiz_id or not given_answer:
+            return Response({'error': 'quiz_id and given_answer are required in the request data'},
+                            status=status.HTTP_400_BAD_REQUEST)
+
+        is_correct = QuizService.is_correct_answer(quiz_id, given_answer)
+        response_data = {'quiz_id': quiz_id, 'given_answer': given_answer, 'is_correct': is_correct}
+        return Response(response_data, status=status.HTTP_200_OK)

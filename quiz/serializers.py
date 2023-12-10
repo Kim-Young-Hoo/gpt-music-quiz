@@ -5,5 +5,9 @@ from .models import Quiz
 class QuizSerializer(serializers.ModelSerializer):
     class Meta:
         model = Quiz
-        fields = '__all__'
+        fields = ('id', 'quiz', 'genre', 'difficulty', 'options',)
 
+
+class SubmitAnswerDTO(serializers.Serializer):
+    quiz_id = serializers.CharField()
+    answer = serializers.CharField()

@@ -1,6 +1,9 @@
 from unittest.mock import patch
 
 from django.test import TestCase
+from django.urls import reverse
+from rest_framework import status
+
 from .models import Quiz, DifficultyType
 import uuid
 from rest_framework.test import APIRequestFactory
@@ -52,12 +55,12 @@ class QuizSerializerTestCase(TestCase):
 
     def test_quiz_serializer_invalid_data(self):
         invalid_data = {
-            "quiz": "Sample Quiz",
-            "genre": "Sample Genre",
-            "difficulty": 'WRONG',
-            "answer": "WRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONG",
-            "explanation": "Sample Explanation",
-            "options": "WRONG"
+            "quiz": "WRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONG",
+            "genre": "WRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONG",
+            "difficulty": 'WRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONG',
+            "answer": "WRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONG",
+            "explanation": "WRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONG",
+            "options": "WRONGWRONGWRONGWRONGWRONGWRONGWRONGWRONG"
         }
         serializer = QuizSerializer(data=invalid_data)
         self.assertFalse(serializer.is_valid())
@@ -87,6 +90,34 @@ class QuizViewSetTestCase(TestCase):
         request = self.factory.get('/api/v1/quiz/distinct-genres/')
         response = view(request)
         self.assertEqual(response.status_code, 200)
+
+    def test_submit_answer_correct(self):
+        view = QuizViewSet.as_view({'post': 'submit_answer'})
+        url = reverse('quiz-list') + 'submission/'
+
+        data = {'quiz_id': self.quiz_instance.id, 'answer': '1'}
+
+        request = self.factory.post(url, data, format='json')
+        response = view(request)
+        is_correct = response.data.get('is_correct', None)
+
+        self.assertEqual(response.status_code, 200)
+        self.assertIsNotNone(is_correct, "Response should contain 'is_correct' field")
+        self.assertTrue(is_correct, "Expected is_correct to be True for a correct answer")
+
+    def test_submit_answer_incorrect(self):
+        view = QuizViewSet.as_view({'post': 'submit_answer'})
+        url = reverse('quiz-list') + 'submission/'
+
+        data = {'quiz_id': self.quiz_instance.id, 'answer': '2'}
+
+        request = self.factory.post(url, data, format='json')
+        response = view(request)
+        is_correct = response.data.get('is_correct', None)
+
+        self.assertEqual(response.status_code, 200)
+        self.assertIsNotNone(is_correct, "Response should contain 'is_correct' field")
+        self.assertFalse(is_correct, "Expected is_correct to be False for a incorrect answer")
 
 
 class QuizServiceTestCase(TestCase):
