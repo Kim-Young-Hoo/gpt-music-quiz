@@ -15,21 +15,22 @@
 ## Data I Used : 
 - Quizzes created by `ChatGPT 3.5`.
 - To see the prompt I made, you can navigate and see `/data/prompt.txt`.
-- An example of data : 
+
 ```json  
-{
-    "quiz": "Which Beatles album is often considered one of the greatest of all time?",
-    "difficulty": "Medium",
+An example of data : 
+  {
+    "quiz": "Who was the lead guitarist for the rock band Queen?",
+    "difficulty": "Easy",
     "genre": "Rock",
     "options": {
-      "1": "Abbey Road",
-      "2": "Sgt. Pepper's Lonely Hearts Club Band",
-      "3": "Revolver",
-      "4": "The White Album"
+      "1": "Brian May",
+      "2": "Jimmy Page",
+      "3": "Eric Clapton",
+      "4": "Jimi Hendrix"
     },
-    "answer": "2",
-    "explanation": "Sgt. Pepper's Lonely Hearts Club Band is frequently regarded as one of the greatest albums in the history of music, with its innovative production and eclectic sound."
-}
+    "answer": "1",
+    "explanation": "Brian May served as the lead guitarist for the legendary rock band Queen, contributing to their distinctive sound."
+  }
 ```
 ## Implemenetation :
 - Backend : `Django Rest Framework (DRF)`
