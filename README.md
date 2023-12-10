@@ -1,7 +1,14 @@
 # Musical History Quiz App
 
 ### Author : 
-- 김영후 (Kim Young Hoo)
+- **김영후 (Kim Young Hoo)**
+
+### Project Description : 
+(TODO : should add an image or something here)
+- A web application that provides a service of solving `Quizzes` related to `musical histories`.
+- (TODO) Provides a `OAuth 2.0` login service so that a user can review their stats.
+- (TODO) Provieds a dashboard of user's ranking.
+
 
 ### Purpose of this Project : 
 - To *desperately* prove that I can implement `DRF Server` so that I can find a _proper_ job.
@@ -26,14 +33,22 @@
 ```
 ### Implemenetation :
 - Backend : `Django Rest Framework (DRF)`
+- Database : `Sqlite3`
 - Frontend : `React`
 - Deployment : `Docker`
 
-### To Run (not implmented yet) : 
+### (TODO) To Run  : 
 - if you have docker installed,
  ```
  $ docker build . 
  $ docker ` ...
  ```
+ and then go localhost blahblah
 
 - if not, 
+```
+asdfasdf
+```
+
+### (TODO) APIs :
+- 
